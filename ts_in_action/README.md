@@ -173,3 +173,34 @@ declare global {
 ```
 
 # 配置 tsconfig.json(1):文件选项
+
+tsc 可以编译所有的 ts 文件
+
+```json
+//tsconfig.base.json
+{
+    "files": [
+        "src/a.ts"
+    ],
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "src/lib"
+    ]
+}
+//tsconfig.json
+{
+    "extends": "./tsconfig.base",
+    "exclude": [],
+    "compileOnSave": true //Atom编译器才有此插件功能
+}
+
+```
+
+# 配置 tsconfig.json(2):编译选项
+
+```json
+
+```
