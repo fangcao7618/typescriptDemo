@@ -57,4 +57,4 @@ let endless = () => {
     while (true) {}
 };
 //这意味着声明never的变量只能被never类型所赋值。
-let a: never;
+let acv: never;

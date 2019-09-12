@@ -29,8 +29,12 @@ let boy: Boy = {
 
 class Auto {
     state = 1;
+    // private state2 = 0;
 }
 interface AutoInterface extends Auto {}
-class C implements AutoInterface {
+//实现
+class CB implements AutoInterface {
     state = 1;
 }
+
+class Bus extends Auto implements AutoInterface {}
