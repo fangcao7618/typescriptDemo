@@ -269,6 +269,8 @@ module: {
 ![](../document/1568623015774.jpg)
 综合下来建议用 ts-loader
 
+# 编译工具：从 ts-loader 到 Babel
+
 # 使用了 TypeScript，为什么还需要 Babel?
 
 ![](../document/1568623173246.jpg)
@@ -276,3 +278,13 @@ module: {
 ## Babel7 之前：
 
 ![](../document/1568623238134.jpg)
+
+# 代码检查工具：从 TSLint 到 ESLint
+
+![](../document/1568627711193.jpg)
+
+# 使用 Jest 进行单元测试
+
+![](../document/1568627899889.jpg)
+
+`npx ts-jest config:init`

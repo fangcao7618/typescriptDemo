@@ -27,3 +27,13 @@
 [TypeScript 入门教程](https://ts.xcatliu.com/basics/declaration-files)
 [Class](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes)
 [TypeScript runoob 网教程](https://www.runoob.com/typescript/ts-ambient.html)
+
+## TypeScript 官方转向 ESLint 的原因：
+
+-   TSLint 执行规则的方式存在一些架构问题，从而影响了性能，而修复这些问题会破坏现有的规则；
+-   ESLint 的性能更好，并且社区用户通常拥有 ESLint 的规则配置（比如针对 React 和 Vue 的规则），而不会拥有 TSLint 的规则配置。
+
+![](../document/1568625043107.jpg)
+![](../document/1568625128725.jpg)
+
+[ts_in_action]
