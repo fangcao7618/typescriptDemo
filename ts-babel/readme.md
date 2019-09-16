@@ -277,3 +277,6 @@ module: {
 
 ![](../document/1568623238134.jpg)
 
+# 添加测试 jest
+
+`npm i -D jest babel-jest @types/jest -D`

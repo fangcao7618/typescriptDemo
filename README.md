@@ -24,6 +24,20 @@
 -   文档可以通过工具生成
 
 参考教程：
+
 [TypeScript 入门教程](https://ts.xcatliu.com/basics/declaration-files)
+
 [Class](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes)
+
 [TypeScript runoob 网教程](https://www.runoob.com/typescript/ts-ambient.html)
+
+
+分支：
+
+typescript-babel typescript、babel结合，还有JEST测试
+
+
+
+# 实战篇
+
+## 创建项目
