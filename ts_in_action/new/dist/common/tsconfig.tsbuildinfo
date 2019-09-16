@@ -1,0 +1,50 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.d.ts": {
+        "version": "49ff9798f592c8b7e628fd881401e68810c1b3589ecd7a41b32b3c287374cde0",
+        "signature": "49ff9798f592c8b7e628fd881401e68810c1b3589ecd7a41b32b3c287374cde0"
+      },
+      "../../../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "ff5688d6b2fcfef06842a395d7ff4d5730d45b724d4c48913118c889829052a1",
+        "signature": "ff5688d6b2fcfef06842a395d7ff4d5730d45b724d4c48913118c889829052a1"
+      },
+      "../../../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "2d53f3741e5a4f78a90f623387d71a1cc809bb258f10cdaec034b67cbf71022f",
+        "signature": "2d53f3741e5a4f78a90f623387d71a1cc809bb258f10cdaec034b67cbf71022f"
+      },
+      "../../../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "../../../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "../../src/common/index.ts": {
+        "version": "16836a7635e4c61a2ddea1e5d5506e136f2bb45093da440aaf7598255abea90a",
+        "signature": "b04e11301b82ccb01390911fede175afa9e0015014b27188b2e05e749b0056c0"
+      }
+    },
+    "options": {
+      "target": 1,
+      "module": 1,
+      "strict": true,
+      "composite": true,
+      "declaration": true,
+      "outDir": "./",
+      "configFilePath": "../../src/common/tsconfig.json"
+    },
+    "referencedMap": {},
+    "exportedModulesMap": {},
+    "semanticDiagnosticsPerFile": [
+      "../../../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.d.ts",
+      "../../src/common/index.ts",
+      "../../../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../../../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts"
+    ]
+  },
+  "version": "3.6.2"
+}

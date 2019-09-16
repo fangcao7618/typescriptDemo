@@ -206,3 +206,6 @@ tsc 可以编译所有的 ts 文件
 ```
 
 # 配置 tsconfig.json(3):工程引用
+
+`tsc -b test --clean`清理构建文件
+`tsc -b test --verbose`生成构建文件 --verbose 在输出设备商显示虚拟机运行信息
