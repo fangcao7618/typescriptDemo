@@ -43,6 +43,14 @@
         // "noImplicitReturns": true, //每个分支都要有返回值
 
         // "esModuleInterop": true, //允许 export=导出，由import from 导入
-        // "allowUmdGlobalAccess": true //允许在模块中访问 UMD 全局变量
+        // "allowUmdGlobalAccess": true, //允许在模块中访问 UMD 全局变量
+        // "moduleResolution":"node",//模块解析策略
+        // "baseUrl": "./", //解析非相对模块的基地址
+        // "paths": {//路径映射，相对于baseUrl
+        //     "jquery":["node_modules/jquery/dist/jquery.slim.min.js"]
+        // },
+        // "rootDirs": ["src", "out"] //将多个目录放在一个虚拟目录下，用于运行时
+        // "listEmittedFiles": true, //打印输出文件
+        // "listFiles": true //打印编译的文件（包括引用的声明文件）
     }
 }

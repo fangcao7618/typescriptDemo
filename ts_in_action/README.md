@@ -204,3 +204,5 @@ tsc 可以编译所有的 ts 文件
 ```json
 
 ```
+
+# 配置 tsconfig.json(3):工程引用

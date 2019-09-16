@@ -36,3 +36,5 @@ class A {
 let a = new A();
 a.getA()();
 a.getB()();
+
+// import { util } from "./"; "rootDirs": ["src", "out"] //将多个目录放在一个虚拟目录下，用于运行时

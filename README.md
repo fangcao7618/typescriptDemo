@@ -22,3 +22,8 @@
 -   性能是可以改善的（V8 引擎），而语言的灵活性更重要
 -   隐藏的错误可以通过单元测试发现
 -   文档可以通过工具生成
+
+参考教程：
+[TypeScript 入门教程](https://ts.xcatliu.com/basics/declaration-files)
+[Class](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes)
+[TypeScript runoob 网教程](https://www.runoob.com/typescript/ts-ambient.html)
