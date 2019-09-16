@@ -206,3 +206,73 @@ tsc 可以编译所有的 ts 文件
 ```
 
 # 配置 tsconfig.json(3):工程引用
+
+```javascript
+const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
+module: {
+        rules: [
+            {
+                test: /\.tsx?$/i,
+                use: [
+                    {
+                        loader: "ts-loader",
+                        options: {
+                            transpileOnly: true //只做语言转换，不做类型检查,所以还的装一个插件fork-ts-checker-webpack-plugin
+                        }
+                    }
+                ],
+                exclude: /node_modules/
+            }
+        ]
+    },
+plugins: [
+        new HtmlWebpackPlugin({
+            template: "./src/tpl/index.html"
+        }),
+        new ForkTsCheckerWebpackPlugin()
+    ]
+```
+
+npm i fork-ts-checker-webpack-plugin -D
+
+## awesome-typescript-loader 代替 ts-loader
+
+npm i awesome-typescript-loader -D
+
+```javascript
+const { CheckerPlugin } = require("awesome-typescript-loader");//自带检查类型的方法
+module: {
+        rules: [
+            {
+                test: /\.tsx?$/i,
+                use: [
+                    {
+                        // loader: "ts-loader",
+                        loader: "awesome-typescript-loader",
+                        options: {
+                            transpileOnly: true//只做语言转换，不做类型检查
+                        }
+                    }
+                ],
+                exclude: /node_modules/
+            }
+        ]
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: "./src/tpl/index.html"
+        }),
+        new CheckerPlugin()
+    ]
+```
+
+![](../document/1568623015774.jpg)
+综合下来建议用 ts-loader
+
+# 使用了 TypeScript，为什么还需要 Babel?
+
+![](../document/1568623173246.jpg)
+
+## Babel7 之前：
+
+![](../document/1568623238134.jpg)
