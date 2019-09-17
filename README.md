@@ -40,5 +40,8 @@
 
 # 实战篇
 
-
 ## 创建项目
+### 创建react项目一
+npm i react react-dom
+npm i @types/react @types/react-dom -D
+### 创建react项目二
