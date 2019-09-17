@@ -41,7 +41,14 @@
 # 实战篇
 
 ## 创建项目
-### 创建react项目一
+
+### 创建 react 项目一
+
 npm i react react-dom
 npm i @types/react @types/react-dom -D
-### 创建react项目二
+
+### 创建 react 项目二
+
+create-react-app ts-react-app --typescript
+[ts-react-app]
+
