@@ -31,13 +31,14 @@
 
 [TypeScript runoob 网教程](https://www.runoob.com/typescript/ts-ambient.html)
 
-
 分支：
 
-typescript-babel typescript、babel结合，还有JEST测试
-
-
+-   `typescript-babel` typescript、babel 结合，还有 JEST 测试
+-   `gongcheng` 工程篇
+-   `gongchengyinyong` 工程篇
+-   `master` 基础篇
 
 # 实战篇
+
 
 ## 创建项目
