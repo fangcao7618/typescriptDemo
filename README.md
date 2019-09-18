@@ -52,3 +52,13 @@ npm i @types/react @types/react-dom -D
 create-react-app ts-react-app --typescript
 [ts-react-app]
 
+### Redux 与类型
+
+create-react-app ts-react-mock-redux-app --typescript
+[ts-react-mock-redux-app] 复制了[ts-react-app]
+
+还要安装
+
+npm i redux react-redux react-thunk redux-thunk
+
+### 搭建服务端开发环境
