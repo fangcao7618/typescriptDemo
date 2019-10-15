@@ -57,8 +57,18 @@ create-react-app ts-react-app --typescript
 create-react-app ts-react-mock-redux-app --typescript
 [ts-react-mock-redux-app] 复制了[ts-react-app]
 
+yarn start 运行项目，在运行之前，要开始 mock 或者 [ts-express] yarn watch
+
 还要安装
 
 npm i redux react-redux react-thunk redux-thunk
 
 ### 搭建服务端开发环境
+
+[ts-express]
+
+yarn build 创建和生成普通的 js
+
+yarn watch 运行监控
+
+### 安装 mysql
